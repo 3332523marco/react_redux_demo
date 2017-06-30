@@ -1,9 +1,9 @@
 # react_redux_demo
-##简介
+## 简介
 
 react框架为我们理顺了 store --> view 的“单向”工作流（store是state的容器）；然后，redux框架为我们理顺了 view --> store 的“单向”工作流。并且react和redux都以组件化的形式可以将各自负责的功能进行灵活地组装或拆分，最大程度上确保我们“一次只需要专注于一个局部问题”
 
-##redux结构
+## redux结构
 state就是数据，组件就是数据的呈现形式，action是动作，action是通过reducer来更新state的。
 结构如下图
 ![Dividers beginning and middle](pic1.png)
