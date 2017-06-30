@@ -20,28 +20,28 @@ state就是数据，组件就是数据的呈现形式，action是动作，action
 
 对组件进行安全限制
 
-`demoComponents.propTypes = {
+     demoComponents.propTypes = {
 
-    //addPrice必须为fucntion,且必须存在
+       //addPrice必须为fucntion,且必须存在
     
-    addPrice: PropTypes.func.isRequired,
+       addPrice: PropTypes.func.isRequired,
     
-    counter必须为数组，且必须存在
+       counter必须为数组，且必须存在
     
-    counter: PropTypes.arrayOf(PropTypes.shape({
+       counter: PropTypes.arrayOf(PropTypes.shape({
     
-        id: PropTypes.number.isRequired,
+          id: PropTypes.number.isRequired,
         
-        title: PropTypes.string.isRequired,
+          title: PropTypes.string.isRequired,
         
-        price: PropTypes.number.isRequired,
+          price: PropTypes.number.isRequired,
         
-    })).isRequired,
-};`
+       })).isRequired,
+      };
 
 
 
-##使用 react-hot-loader
+## 使用 react-hot-loader
 
 用 react 编写代码时，能让修改的部分自动刷新。但这和自动刷新网页是不同的，因为 hot-loader 并不会刷新网页，而仅仅是替换你修改的部分
 
